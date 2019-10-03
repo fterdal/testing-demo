@@ -8,6 +8,7 @@ describe('Garden', () => {
       const listOfVeggies = garden.list()
       expect(listOfVeggies).to.be.an('array')
     })
+
     it('returns the veggies in the garden', () => {
       const initialVeggies = [
         { type: 'corn', quantity: 4 },
