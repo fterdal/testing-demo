@@ -1,9 +1,9 @@
 class Garden {
-  constructor() {
-    this.veggies = []
+  constructor(veggies = []) {
+    this.veggies = veggies
   }
   list() {
-    return []
+    return this.veggies
   }
 }
 
